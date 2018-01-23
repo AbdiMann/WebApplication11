@@ -13,6 +13,11 @@ namespace WebApplication11.Controllers
             return View();
         }
 
+        public ActionResult Indexx()
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
